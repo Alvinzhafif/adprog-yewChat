@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <script src="https://cdn.tailwindcss.com"></script>
-        <title>Yewchat!</title>
-    </head>
-    <body>
-        <script src="yewchat.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8" />
+    <!-- Include Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Yewchat!</title>
+    <style>
+        /* Add custom styles here */
+        /* Example: */
+        /* Set background image */
+        body {
+            background-color: lime; /* Greyish brown color */
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwi5TnUfXflO4uN_7w5eKkUH7pcRYJRS8-VxrAlJlSTA&s');
+            background-size: 2060px;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Custom colors */
+        /* Example: */
+        /* Change primary color */
+        .primary-color {
+            color: #ff0000; /* Red color */
+        }
+        /* Fit horizontally */
+        /* Example: */
+        /* Make the chat container fit horizontally */
+        .chat-container {
+            width: 80%; /* Set the width to 80% of the viewport width */
+            margin: 0 auto; /* Center the container horizontally */
+            /* Adjust other properties as needed */
+        }
+        /* Enlarge UI elements */
+        /* Example: */
+        /* Enlarge chat messages */
+        .chat-message {
+            font-size: 1.5rem; /* Set font size to 1.5rem */
+            /* Adjust other properties as needed */
+        }
+    </style>
+</head>
+<body>
+<div class="flex justify-center items-center">
+    <!-- Your UI content goes here -->
+    <div class="chat-container">
+        <!-- Chat UI elements -->
+        <div class="chat-message">
+            <!-- Chat messages -->
+        </div>
+    </div>
+</div>
+<script src="yewchat.js"></script>
+</body>
 </html>
